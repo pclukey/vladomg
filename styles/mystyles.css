@@ -1,0 +1,86 @@
+body{
+  text-align: center;
+  /* background: #5c6784; */
+  background-color: #3bfbffc9;
+  /* background-color: #ffeb3b; */
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+h1{
+  display: inline-block;
+  color: white;
+  /* margin-right: -300px;
+  margin-left: -300px; */
+  position: relative;
+  margin: 5% 10%;
+  text-align: center;
+  font-weight: 100;
+  font-family: serif;
+  font-size: 2em;
+  /* margin: 40px 120px 20px; */
+  background-color: black;
+  padding: 1.3em 1.4em;
+  border-radius: 8px;
+}
+
+h2 {
+  color: black;
+  /* color:#f0f593; */
+}
+
+ .count-down-clock{
+    font-family: sans-serif;
+    color: yellow;
+    position: relative;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 3em;
+    padding: 2% 2%;
+    border-radius: 3px;
+    background: black;
+
+}
+
+.timer {
+  display: inline-block;
+  position: relative;
+  width: 85%;
+}
+
+.days, .hours, .minutes, .seconds{
+  display: inline-block;
+  /* width: 3%; */
+  min-height: 80%;
+  min-width: 3px;
+    padding: 3% 4%;
+    border-radius: 3px;
+    background: #303030;
+
+}
+.smalltext{
+  display: inline-block;
+  position: relative;
+    padding-top: 5px;
+    font-size: 16px;
+}
+
+.primary-btn {
+  display: inline-block;
+  font-size: 1.3em;
+  color: grey;
+  background-color: #EAFFFD;
+  min-width: 10%;
+  border-radius: 8px;
+
+}
+
+.input-date {
+  background-color: #C9F0FF;
+  font-family: Helvetica;
+  font-size: 1.2em;
+  color: #393e41;
+  min-height: 2em;
+  border-radius: 8px;
+}

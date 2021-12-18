@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles/mystyles.css">
+    <title>Project Time Tracker</title>
+  </head>
+  <body>
+    <h1>TIME MANAGEMENT</h1>
+
+<h2>PLANNING</h2>
+<div class="count-down-clock timer">
+    <span class="days" id="day1"></span>
+    <span class="smalltext">Days</span>
+
+    <span class="hours" id="hour1"></span>
+    <span class="smalltext">Hours</span>
+
+    <span class="minutes" id="minute1"></span>
+    <span class="smalltext">Minutes</span>
+
+    <span class="seconds" id="second1"></span>
+    <span class="smalltext">Seconds</span>
+  </div>
+<br><br>
+<label for="deadline">Enter Deadline for Project:</label>
+<input class="input-date" id="deadline1" type="datetime-local" value="2021-01-01T10:00:00">
+<button class="primary-btn" onclick="countDown(1)" id = "btn">Go</button>
+<p id="notice"> time left</p>
+
+<h2>PROJECT 1</h2>
+<div class="count-down-clock timer">
+    <span class="days" id="day2"></span>
+    <span class="smalltext">Days</span>
+
+    <span class="hours" id="hour2"></span>
+    <span class="smalltext">Hours</span>
+
+    <span class="minutes" id="minute2"></span>
+    <span class="smalltext">Minutes</span>
+
+    <span class="seconds" id="second2"></span>
+    <span class="smalltext">Seconds</span>
+  </div>
+<br><br>
+<label for="deadline2">Enter Deadline for Project:</label>
+<input class="input-date" id="deadline2" type="datetime-local" value="2021-01-01T10:00:00">
+<button class="primary-btn" onclick="countDown(2)" id = "btn2">Go</button>
+<p id="notice1"> time left</p>
+
+<script src="js/timer.js">X</script>
+
+  </body>
+</html>

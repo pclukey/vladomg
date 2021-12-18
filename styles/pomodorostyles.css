@@ -1,0 +1,32 @@
+body {
+  margin-left:30%;
+  background-color:black;
+  font-size:1.3em;
+
+}
+
+h1 {
+  padding-top:5%;
+  font-size:1.8em;
+  color:lightgreen;
+}
+
+.btn{
+  font-size:25px;
+  background-color:yellow;
+  color:black;
+}
+.result{
+  display:inline;
+  font-size:44px;
+  color:orange;
+}
+
+.work-seconds {
+  margin: 2% 10% 5% 15%;
+  color:orange;
+}
+
+.btn-container {
+  margin-left:10%;
+}
